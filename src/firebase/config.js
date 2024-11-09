@@ -1,17 +1,17 @@
-import {initializeApp} from 'firebase/app'
-import {getFirestore} from 'firebase/firestore'
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCRwWd1E7JJiSuHK-J3FRXj8wjK3-WO84E",
-    authDomain: "reactdemojuly2024.firebaseapp.com",
-    projectId: "reactdemojuly2024",
-    storageBucket: "reactdemojuly2024.appspot.com",
-    messagingSenderId: "140474381397",
-    appId: "1:140474381397:web:314537f93c0cd60f1090dc"
+  apiKey: "AIzaSyAuyyV4d1freOl_WRO-R6rR2RmYbfVgQqc",
+  authDomain: "learning-firebase-5e051.firebaseapp.com",
+  projectId: "learning-firebase-5e051",
+  storageBucket: "learning-firebase-5e051.firebasestorage.app",
+  messagingSenderId: "805229540590",
+  appId: "1:805229540590:web:5796b3336831e53b8eafff",
 };
 
-  initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
-  const db = getFirestore();
+const db = getFirestore();
 
-  export {db}
+export { db };
