@@ -60,15 +60,12 @@ export default function Home() {
             <img
               className="icon"
               onClick={() => handleDelete(article.id)}
-              src={EditIcon}
-              alt="delete icon"
-            />
-            <img
-              className="icon"
-              onClick={() => handleDelete(article.id)}
               src={DeleteIcon}
               alt="delete icon"
             />
+            <div>
+              <Link to={`/editArticle/${article.id}`}>Edit</Link>
+            </div>
           </div>
         ))}
     </div>
